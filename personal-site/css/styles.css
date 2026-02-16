@@ -2,16 +2,11 @@
 ---------------------------- */
 
 :root {
-  --Yellow: #e28525;
-  --Turquoise: #016972;
-  --Green: #00403f;
-  --White: #ffffff;
-  --Font: "Times New Roman", Times, serif;
-  --color-yellow: var(--Yellow);
-  --color-turquoise: var(--Turquoise);
-  --color-green: var(--Green);
-  --color-white: var(--White);
-  --font-family: var(--Font);
+  --color-yellow: #e28525;
+  --color-turquoise: #016972;
+  --color-green: #00403f;
+  --color-white: #ffffff;
+  --font-family: "Times New Roman", Times, serif;
 }
 
 /* GLOBAL STYLES
@@ -29,6 +24,11 @@
 .content {
   margin-bottom: 50px;
 }
+
+.cars {
+  font-size: 30px;
+}
+
 .sedan {
   background-color: var(--color-yellow);
   border-top-left-radius: 10px;
